@@ -1,0 +1,149 @@
+/*
+* "I respect css developers but fuck the css..."
+*/
+
+:root {
+    --dark: #374151;
+    --darkt: #1F2937;
+    --darkold: #111827;
+    --ligth: #EEE;
+    --pink: #EC4899;
+    --pruple: #8B5Cf6;
+    --gray: #6B7280;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--dark);
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    gap: 24px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input__date {
+    /* margin-top: 10rem; */
+    font-size: 30px;
+    color: var(--gray);
+}
+
+.input__todo {
+    border: none;
+    appearance: none;
+    outline: none;
+    width: 35%;
+    height: 5rem;
+    background-color: var(--darkt);
+    border-radius: 8px;
+    border: none;
+    color: var(--ligth);
+    /* margin-left: 20px; */
+
+
+}
+
+.input__todo::placeholder {
+    color: var(--gray);
+}
+
+.text {
+    color: var(--gray);
+    font-size: 22px;
+    margin-top: 2rem;
+    align-self: flex-start;
+    margin-left: 50rem;
+}
+
+.sections {
+    display: flex;
+    gap: 10px;
+    flex-direction:column;
+    width: 35%;
+    height: 23rem;
+    border-radius: 8px;
+    border: none;
+    overflow:scroll;
+}
+
+
+.todo {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--darkold);
+    height: 5rem;
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+}
+
+.input__todo_text {
+    width: 50%;
+    height: 3.6rem;
+    background-color: var(--darkold);
+    border: none;
+    appearance: none;
+    outline: none;
+    color: var(--ligth);
+    border-radius: 8px;
+    margin-left: 20px;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+
+
+.delet__edit {
+    display: flex;
+    width: 25%;
+    height: 3.6rem;
+    /* background-color: #8B5Cf6; */
+    justify-content: space-evenly;
+}
+
+.edit {
+    width: 40%;
+    height: 3.6rem;
+    border: none;
+    background-image: linear-gradient(to left, var(--pruple), var(--pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.click__input {
+    width: 40%;
+    height: 3.6rem;
+    border: none;
+    background-image: linear-gradient(to left, var(--pruple), var(--pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+
+}
+
+.delet {
+    width: 40%;
+    height: 3.6rem;
+    border: none;
+    background-image: linear-gradient(to left, var(--pruple), var(--pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
