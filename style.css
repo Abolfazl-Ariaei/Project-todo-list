@@ -10,6 +10,14 @@
     --pink: #EC4899;
     --pruple: #8B5Cf6;
     --gray: #6B7280;
+
+    --colorx: #EC4839;
+    --colory: #EC7839;
+    --colort: #AC4311;
+    --colorr: #915Cf1;
+
+
+
 }
 
 * {
@@ -43,13 +51,14 @@ body {
 
 .input__todo {
     border: none;
+
     appearance: none;
     outline: none;
     width: 35%;
     height: 5rem;
     background-color: var(--darkt);
     border-radius: 8px;
-    border: none;
+    /* border: none; */
     color: var(--ligth);
     /* margin-left: 20px; */
 
@@ -71,12 +80,12 @@ body {
 .sections {
     display: flex;
     gap: 10px;
-    flex-direction:column;
+    flex-direction: column;
     width: 35%;
     height: 23rem;
     border-radius: 8px;
-    border: none;
-    overflow:scroll;
+    /* border: none; */
+    overflow: scroll;
 }
 
 
@@ -88,8 +97,9 @@ body {
     background-color: var(--darkold);
     height: 5rem;
     border-radius: 8px;
-    border: none;
+    /* border: none; */
     align-items: center;
+    border-color: #EC4899;
 }
 
 .input__todo_text {
@@ -147,3 +157,8 @@ body {
 
 /* -webkit-background-clip: text;
 -webkit-text-fill-color: transparent; */
+.tes {
+    width: 2%;
+    height: 5rem;
+    /* background-color: #EC4899; */
+}
